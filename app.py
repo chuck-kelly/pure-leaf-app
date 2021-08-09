@@ -10,4 +10,6 @@ def index():
     secret_flavor = app.config.get("SECRET_FLAVOR")
     welcome_mesage = "Drink more Raspberry Pure Leaf!!! DO IT NOW!!! FINISH IT!!!"
 
-    return f"The configured secret flavor is {secret_flavor}."
+    return welcome_mesage
+
+
